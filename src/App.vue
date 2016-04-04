@@ -217,9 +217,5 @@
     }
   }
 
-  #responsive-img {
-    width: 80%;
-    display: block;
-    margin: 0 auto
-  }
+
 </style>

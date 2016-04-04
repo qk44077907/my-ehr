@@ -3,17 +3,21 @@
  */
 export  default  function(router){
     router.map({
+        '/home': {
+           name : "home",
+           component : require("./components/Home/index.vue")
+        },
         '/employee': {
             name : "employee",
-            component: require('./components/employee.vue')
+            component: require('./components/Employee/index.vue')
         },
-        '/page2': {
-            name : "page2",
-            component: require('./components/page2.vue')
+        '/dept': {
+            name : "dept",
+            component: require('./components/Dept/index.vue')
         },
-        '/home' : {
-            name : "home",
-            component : require("./components/Home/index.vue")
+        '/user' : {
+            name : "user",
+            component : require("./components/User/index.vue")
         }
     })
 }
