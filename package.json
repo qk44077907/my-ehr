@@ -11,7 +11,8 @@
     "express": "^4.13.4",
     "hammerjs": "^2.0.6",
     "jquery": "^2.2.2",
-    "lodash": "^4.6.1"
+    "lodash": "^4.6.1",
+    "moment": "^2.13.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -47,7 +48,6 @@
     "vue-resource": "^0.7.0",
     "vue-router": "^0.7.11",
     "vue-style-loader": "^1.0.0",
-    "vue-tables": "^1.1.8",
     "vue-toastr": "^1.0.3",
     "vue-validator": "^2.0.0",
     "vuex": "^0.6.2",

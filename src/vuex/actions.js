@@ -16,11 +16,11 @@ export const setSecondName = ({dispatch},name) =>{
 
 // 获得菜单list
 export const getMenuList = ({dispatch}) =>{
-    // api.getMenuList().then(reply =>{
-    //     if(reply.result){
-    //         dispatch(types.INIT_MENU_LIST,reply.result);
-    //     }
-    // })
-    var list = api.getMenuList();
-    dispatch(types.INIT_MENU_LIST,list.result);
+
+    api.getMenuList.then( reply => {
+         if(reply.data.result){
+             dispatch(types.INIT_MENU_LIST,reply.data.result);
+         }
+    });
+
 }

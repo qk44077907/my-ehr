@@ -3,10 +3,9 @@ import App from './App.vue'
 import { sync } from 'vuex-router-sync'
 import store from './vuex/store'
 import VueRouter from 'vue-router'
-import Vuetables  from "vue-tables"
 import ConfigRouter from "./router"
+
 Vue.use(VueRouter);
-Vue.use(Vuetables);
 Vue.config.debug = true;
 
 

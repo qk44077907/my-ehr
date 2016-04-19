@@ -10,4 +10,4 @@ Vue.use(VueResource);
 // HTTP相关
 Vue.http.options.crossOrigin = true 
 
-// export const  MenuResource = Vue.http.get(API_ROOT + '/menu');
+export const  getMenuList = Vue.http.get(API_ROOT + '/menu');
